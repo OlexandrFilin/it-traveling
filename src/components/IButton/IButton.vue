@@ -1,11 +1,5 @@
 <template>
-  <button class="btn">click me</button>
+  <button class="bg-[#FFA279] rounded-xl py-[17px] px-10 text-white font-bold -tracking-wider">
+    <slot></slot>
+  </button>
 </template>
-
-<style scoped>
-.btn {
-  color: rgb(16, 196, 166);
-  height: 120px;
-  width: 140px;
-}
-</style>
